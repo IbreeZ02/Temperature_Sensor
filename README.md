@@ -9,7 +9,7 @@ DS18B20 temperature sensor with I2C LCD display and UART debugging on the STM32 
 
 # ℹ️ Overview
 
-A bare-metal embedded project that reads temperature over the 1-Wire protocol, displays it on a 16×2 LCD via I2C, and streams live readings over UART/PuTTY.
+STM32 temperature sensor project that reads temperature over the 1-Wire protocol, displays it on a 16×2 LCD via I2C, and streams live readings over UART/PuTTY.
 
 The firmware is structured around two independently selectable modes, switchable via a single `#define` in `main.c`: a test mode for hardware bring-up and a main mode for normal operation.
 
